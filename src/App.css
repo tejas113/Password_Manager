@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+}
+
+.img1Edit {
+  height: 100px;
+  width: 250px;
+}
+
+.cont1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px;
+  background-color: #5763a5;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.formEdit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 30px;
+  width: 40%;
+  background-color: #454f84;
+  border-radius: 6px;
+}
+
+.headEdit {
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.inputCont {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  background-color: white;
+  border-radius: 6px;
+  border: none;
+  margin: 6px;
+}
+
+.imgEditSmall {
+  height: 50px;
+  width: 50px;
+}
+
+.inputContEdit {
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.imgEdit3 {
+  height: 400px;
+  width: 400px;
+}
+
+.btnEdit {
+  color: white;
+  background-color: black;
+  border-radius: 6px;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 60px;
+  background-color: #5763a5;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.contUp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contUp1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hrEdit {
+  width: 100%;
+  background-color: black;
+  color: black;
+}
+
+.cont2-down1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cont2Down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgEd {
+  height: 400px;
+  width: 550px;
+}
+
+.cont2Down2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 35px;
+}
+
+.listEdit {
+  list-style-type: none;
+  width: 20%;
+  border: 2px;
+  border-color: white;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 80px;
+}
+
+.profileCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+.listCont2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headEdit2 {
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.img3Edit {
+  height: 20px;
+  width: 20px;
+}
+
+.starsEdit {
+  height: 15px;
+  width: 100px;
+}
+
+.btnEdit {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
